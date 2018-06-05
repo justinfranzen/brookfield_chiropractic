@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Contracted Leg Length Test</h1>
     
-        <h1 id="main-header">Contracted Leg Length Test</h1>
+    <div id="secondary-content">
         
                 <p>Click on each image for a larger view and step-by-step directions.</p>
                

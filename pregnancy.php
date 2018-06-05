@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Pregnancy</h1>
     
-        <h1 id="main-header">Pregnancy</h1>
+    <div id="secondary-content">
         
         <p>At first glance, most people don’t see the connection between chiropractic and pregnancy. However, there are four stages in which having an optimally working nervous system can help both mother and child.</p>
         

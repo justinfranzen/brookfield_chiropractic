@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Slipped Disc</h1>
     
-        <h1 id="main-header">Slipped Disc</h1>
+    <div id="secondary-content">
         
         <p>A disc can’t slip. But it can wedge, bulge, protrude and herniate. Chiropractic care may help.</p>
         

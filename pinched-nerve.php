@@ -9,10 +9,10 @@ include 'includes/header.php';
 
 
 <body>
+
+ <h1 id="main-header">Pinched Nerve</h1>
     
     <div id="secondary-content">
-    
-        <h1 id="main-header">Pinched Nerve</h1>
         
         <p>It’s called a pinched nerve because that’s what it feels like. But there’s a lot more going on!</p>
         

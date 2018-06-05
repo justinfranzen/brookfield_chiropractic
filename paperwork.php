@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Online Paperwork</h1>
     
-        <h1 id="main-header">Online Paperwork</h1>
+    <div id="secondary-content">
         
         <p>We offer our paperwork on line so you can complete it in the convenience of your own home. Here are the essential forms we use and why we need them.</p>
         

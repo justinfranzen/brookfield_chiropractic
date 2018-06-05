@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Neck Pain</h1>
     
-        <h1 id="main-header">Neck Pain</h1>
+    <div id="secondary-content">
         
         <p>Imagine balancing a 12 lb. (5.5 kg.) bowling ball on the tips of your fingers, all day long.</p>
         

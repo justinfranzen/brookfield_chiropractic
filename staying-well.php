@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Staying Well</h1>
     
-        <h1 id="main-header">Staying Well</h1>
+    <div id="secondary-content">
         
         <br>
         

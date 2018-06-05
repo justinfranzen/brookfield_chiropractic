@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Brookfield Chiropractic Team</h1>
     
-        <h1 id="main-header">Brookfield Chiropractic Team</h1>
+    <div id="secondary-content">
         
         <h3 class="subheader">Ashley</h3>
         

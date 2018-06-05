@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Stress</h1>
     
-        <h1 id="main-header">Stress</h1>
+    <div id="secondary-content">
         
         <p>Not all stress is bad. A 20-minute workout at the gym for a fit 25-year old is good stress. The same workout for your 75-year old grandmother would likely be bad stress!</p>
         

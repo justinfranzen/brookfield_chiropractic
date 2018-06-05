@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Privacy Policy</h1>
     
-        <h1 id="main-header">Privacy Policy</h1>
+    <div id="secondary-content">
         
         <p>This Privacy Policy applies to the Brookfield Chiropractic website. The Brookfield Chiropractic website is provided for information and educational purposes and may contain links to other sites. Once you enter another website (whether through an advertisement, service, or content link), be aware that Brookfield Chiropractic is not responsible for the privacy practices of such other sites. We encourage you to look for and review the privacy statements of each and every website that you visit.</p>
         

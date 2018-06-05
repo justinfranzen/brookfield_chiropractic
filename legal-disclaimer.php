@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">Legal Disclaimer</h1>
     
-        <h1 id="main-header">Legal Disclaimer</h1>
+    <div id="secondary-content">
         
         <p>The information contained in this Site is for general guidance on matters of health interest only. While we have made every attempt to ensure that the information contained in this Site has been obtained from reliable sources, Brookfield Chiropractic is not responsible for any errors or omissions, or for the results obtained from the use of this information.</p>
         

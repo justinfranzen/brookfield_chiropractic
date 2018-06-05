@@ -10,9 +10,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">What Are Vertebral Subluxations?</h1>
     
-        <h1 id="main-header">What Are Vertebral Subluxations?</h1>
+    <div id="secondary-content">
         
         <p>A vertebral subluxation is the result of spinal bones with improper motion or position affecting nerve communications between your brain and your body..</p>
         

@@ -54,9 +54,9 @@ if (isset($_POST['submitted'])){
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">5 Reasons to Stay Away from Sugar</h1>
     
-        <h1 id="main-header">5 Reasons to Stay Away from Sugar</h1>
+    <div id="secondary-content">
         
         <div class="row">
             

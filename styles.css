@@ -1,0 +1,2405 @@
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif !important;
+}
+
+#main-content {
+    margin-top: 180px;
+    text-align: center;
+    background-image: url('../images/spine.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mobile-nav, #myNav, .overlay-content {
+    display: none;
+}
+
+#header {
+    height: 185px;
+    background: #e1e5e8;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#header-content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header-number {
+    float: right;
+    margin-top: -60px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#header-phonenumber {
+    margin: 0 auto -25px auto;
+    display: block;
+    color: #1e537f;
+    width: 150px;
+}
+
+#header-phonenumber:hover {
+    text-decoration: none;
+    color: lightslategray;
+    transition-duration: .5s;
+}
+
+#header-phonenumber:not(hover) {
+    transition-duration: .5s;
+}
+
+#header-appointment {
+    background: darkcyan;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#header-appointment:hover {
+    text-decoration: none;
+    color: white;
+    background: #1e537f;
+    transition-duration: .5s;
+}
+
+#header-appointment:not(hover) {
+    transition-duration: .5s;
+}
+
+#logo {
+    width: 350px;
+    max-width: 100%;
+    margin: 15px 0 0 0;
+    padding: 0 10px;
+}
+
+.menu {
+    display: none;
+}
+
+#main-nav {
+   margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#main-nav ul li {
+    margin-left: -35px;
+}
+
+#main-nav ul li a {
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 35px;
+}
+
+#main-nav ul li a:hover {
+    background: lightgray;
+}
+
+ul#about-sub-menu, ul#doctors-sub-menu, ul#expect-sub-menu {
+    display: none;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-top: 23px;
+    font-size: 16px;
+    padding: 0;
+    background: lightgray;
+    font-family: 'Lato', sans-serif;
+}
+
+ul#about-sub-menu li, ul#doctors-sub-menu li, ul#expect-sub-menu li {
+    text-align: left;
+}
+
+ul#about-sub-menu li a:hover , ul#doctors-sub-menu li a:hover, ul#expect-sub-menu li a:hover {
+    background: #e9e9e9;
+}
+
+ul#about-sub-menu li a, ul#doctors-sub-menu li a, ul#expect-sub-menu li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inherit;
+    margin-right: 0;
+}
+
+#about-dropdown:hover #about-sub-menu, #doctors-dropdown:hover #doctors-sub-menu, #expect-dropdown:hover #expect-sub-menu {
+    display: block;
+}
+
+#about {
+    display: none;
+}
+
+#secondary-content {
+    width: 90%;
+    margin: 70px auto 70px auto;
+}
+
+.secondary-content {
+    margin-top: 250px;
+    padding: 0 5%;
+    margin-bottom: 75px;
+}
+
+.secondary-content2 {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.secondary-content2.center {
+    text-align: center;
+}
+
+#bg-section {
+    background: #e8eef2;
+    /***background: #e6f3f7;****/
+    padding: 30px 5% 60px 5%;
+}
+
+.main-additional-info {
+    margin: 85px auto 20px auto;
+}
+
+.additional-info {
+    margin: 75px auto 100px auto;
+    width: 90%;
+}
+
+.interior-img {
+    max-width: 100%;
+    margin: 10px auto 5px auto;
+    display: block;
+}
+
+.interior-img2 {
+    max-width: 100%;
+    margin: 30px auto;
+    display: block;
+}
+
+.interior-img-left {
+    margin: 45px auto 5px auto;
+    display: block;
+    max-width: 100%;
+}
+
+#headache {
+    max-width: 100%;
+    margin: 30px auto;
+    width: 400px;
+    display: block;
+}
+
+ul#links li {
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+ul#links li a {
+    color: #337ab7;
+    font-size: 16px;
+}
+
+ul#links li a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+ol {
+    font-size: 18px;
+}
+
+#main-header {
+    color: #004978;
+    font-size: 44px !important;
+    background: rgba(0, 139, 139, .3);
+    padding: 50px 5%;
+    margin-top: 185px !important;
+}
+
+#additional-info {
+    margin: 80px auto;
+    width: 90%;
+}
+
+#expertise {
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#expertise-home {
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+table {
+    background: white !important;
+    margin: 0 auto;
+}
+
+td, th {
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+td {
+    text-align: center !important;
+}
+
+.call-section {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.call, .table-phonenumber {
+    font-size: 18px;
+}
+
+.table-phonenumber {
+    display: block;
+    width: 170px;
+    margin: 10px auto 50px auto;
+}
+
+.table-phonenumber:hover {
+    text-decoration: none;
+}
+
+.contact-phonenumber:hover {
+    text-decoration: none;
+}
+
+.lightgray {
+    background: #e1e5e8 !important;
+}
+
+figcaption {
+    width: 75%;
+    margin: 0 auto 30px auto;
+}
+
+#statistics {
+    list-style-type: none;
+}
+
+#statistics li {
+    font-style: italic;
+}
+
+.reference {
+    font-size: 15px;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.question {
+    background: #eeeee7;
+    padding: 1px 25px 10px;
+    margin-bottom: 30px;
+}
+
+.quote {
+    background: #eeeee7;
+    padding: 20px 25px 10px;
+    margin-bottom: 30px;
+}
+
+.test-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.test-img:hover {
+    cursor: pointer;
+}
+
+figcaption.step {
+    text-align: center;
+    margin-top: 20px;
+    width: 60px;
+}
+
+figcaption.step:hover {
+    cursor: pointer;
+}
+
+#step1, #step2, #step3, #step4 {
+    display: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scale, .scale, .lumbar, .cervical {
+    display: block;
+    max-width: 100%;
+}
+
+#scale {
+    width: 450px;
+}
+
+.lumbar {
+    width: 350px;
+}
+
+.media {
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.chiropractor {
+    width: 250px;
+    margin: 10px auto 30px auto;
+    display: block;
+    max-width: 100%;
+}
+
+.team {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+#vid {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+    display: block;
+}
+
+.section {
+    padding-top: 50px;
+    height: 225px;
+}
+
+.section2 {
+    padding-top: 50px;
+    height: 225px;
+    background: rgba(30,91,127,.2);
+    /***background: rgba(173,216,230,.6);****/
+}
+
+.one, .two {
+    padding-top: 50px;
+    height: 225px;
+}
+
+.two {
+    padding-top: 50px;
+    height: 225px;
+    background: rgba(173,216,230,.6);
+}
+
+h1 {
+    font-size: 46px !important;
+    margin-top: 0 !important;
+}
+
+.learn-more {
+    font-size: 22px;
+    border: 1.5px solid #1e537f;
+    padding: 10px;
+    color: #1e537f;
+    width: 170px;
+    margin: 10px auto 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 3px;
+}
+
+.thank-you {
+    font-size: 24px;
+    border: 1.5px solid #1e537f;
+    padding: 10px;
+    color: #1e537f;
+    width: 200px;
+    margin: 10px auto 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 3px;
+}
+
+#thank-you {
+    text-align: center;
+    margin-bottom: 150px;
+    padding-top: 30px;
+}
+
+#thankyou {
+    margin-bottom: 50px !important;
+}
+
+#continue {
+    border: 1px solid #1e537f;
+    background: #1e537f;
+    padding: 10px 20px;
+    font-size: 22px;
+    color: white;
+    border-radius: 3px;
+}
+
+#continue:hover {
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    text-decoration: none;
+    background: #1e537f;
+    color: white;
+    border: 1.5px solid #1e537f;
+    background: #1e537f;
+    transition-duration: .5s;
+}
+
+.learn-more:not(:hover) {
+    transition-duration: .5s;
+}
+
+#main-header {
+    color: #1e537f;
+    margin-bottom: 20px;
+}
+
+.subheader {
+    color: #317f99;
+    margin-bottom: 15px !important;
+    font-weight: 700;
+    font-size: 28px !important;
+    margin-top: 50px !important;
+}
+
+.subheader.additional-links {
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+}
+
+.inner-link:hover {
+    text-decoration: none;
+}
+
+.lightblue {
+    color: #317f99;
+    margin-bottom: 15px !important;
+    font-weight: 700;
+    font-size: 28px !important;
+    margin-top: 50px !important;
+}
+
+.row.blog-post {
+    margin-bottom: 75px;
+}
+
+.row.blog-post.first {
+    margin-top: 60px;
+}
+
+.blog-image-link {
+    margin: 0 auto 20px auto;
+    display: block;
+    max-width: 100%;
+    width: 200px;
+}
+
+.blog-image {
+    max-width: 100%;
+    width: 200px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: .5px solid darkcyan;
+    padding: 10px;
+}
+
+.statement.lightblue.post {
+    margin-top: 0 !important;
+}
+
+.statement.lightblue.post a:hover {
+    text-decoration: none; 
+}
+
+.blog-page-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.continue a:hover {
+    text-decoration: none;
+}
+
+.comparison {
+    text-align: center;
+    background: darkcyan;
+    color: white;
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+#team {
+    width: 350px;
+    margin: 0 auto;
+    display: none;
+    max-width: 100%;
+}
+
+#team-text {
+    text-align: center;
+    background: #1e537f;
+    width: 70%;
+    margin: 0 auto;
+        margin-top: 0px;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    margin-top: -1px;
+    border-radius: 10px;
+    display: none;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p#contact a:hover {
+    text-decoration: none;
+}
+
+/*---------REVIEWS-------------*/
+
+
+ /* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+    background: rgba(173,216,230,.6);
+    font-size: 18px;
+}
+
+.myslides.first {
+    display: block;
+    padding: 80px;
+  text-align: center;
+    background: rgba(173,216,230,.6);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(30,83,127, .6);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: ;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;} 
+
+  /*---------ACCORDION-----------------*/
+
+.panel-links a:hover {
+    text-decoration: none;
+}
+
+button.single:after {
+    content: '' !important;
+}
+
+button.accordion {
+    background: rgba(0, 50, 120, 0);
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 17px;
+    margin-left: 0;
+}
+
+.accordion {
+    list-style-type: none;
+}
+
+.accordion-link {
+    font-size: 18px;
+}
+
+.accordion-link a:hover {
+    text-decoration: none;
+}
+
+button.accordion.active, button.accordion:hover {
+    color: darkgray;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-top: -25px;
+    font-size: 17px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+.links {
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+div.panel {
+    padding: 0 18px;
+    background: rgba(0, 50, 120, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    margin-bottom: 0;
+}
+
+button.accordion.question {
+    margin: -25px 0 0 0;
+}
+
+button.accordion.question li {
+    margin: 5px 40px 0 30px;
+    text-align: left;
+}
+
+#questions {
+    margin-left: -43px;
+    margin-top: 35px;
+}
+
+div.panel.answer {
+    margin: -5px 0 20px 15px;
+}
+
+h3  {
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+
+.educating {
+    text-align: center;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 22px !important;
+    text-align: center !important;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+#blue-center {
+    text-align: center;
+    color: #004978;
+}
+
+.center {
+    text-align: center;
+}
+
+.published {
+    margin-top: -10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#appointment {
+    text-align: center;
+    height: 280px;
+    background: darkcyan;
+}
+
+#schedule {
+    padding-top: 65px !important;
+    color: white;
+}
+
+.book-now {
+    font-size: 22px;
+    border: 1.5px solid white;
+    width: 185px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 25px auto 0 auto;
+    padding: 15px 0;
+    color: white;
+    border-radius: 3px;
+}
+
+.book-now:hover {
+    background: lightblue;
+    color: black;
+    border: 1.5px solid white;
+    transition-duration: .5s;
+}
+
+.book-now:not(:hover) {
+    transition-duration: .5s;
+}
+
+#contact-section {
+    text-align: center;
+    margin-top: -50px;
+}
+
+iframe {
+    margin: 0px auto 20px auto;
+    display: block;
+    width: 75%;
+}
+
+.link {
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.divider {
+    border: .1px solid black;
+    margin-top: 40px;
+}
+
+.divider2 {
+    border: .5px solid black;
+    margin-top: 40px;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.staff {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.phonenumber {
+    color: #1e537f;
+}
+
+.phonenumber:hover {
+    color: lightslategray;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.phonenumber:not(:hover) {
+    transition: .5s;
+}
+
+#myForm {
+    width: 500px;
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+    border-radius: 5px;
+}
+
+#myForm2 {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+#patientForm {
+    width: 500px;
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+#day {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+#day, #hour, #minute {
+    margin-right: 15px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1.5px solid #1e537f;
+}
+
+textarea {
+    padding-left: 10px;
+    padding-top: 5px;
+    border: .5px solid;
+    border-radius: 3px;
+    border: 1.5px solid #1e537f;
+}
+
+#submit {
+    width: 115px;
+    height: 45px !important;
+    border: 1.5px solid #1e537f;;
+    padding: 0;
+    background: white;
+    color: black;
+}
+
+#submit:hover, #post-comment:hover {
+    background: #1e537f;;
+    color: white;
+    transition-duration: .5s;
+}
+
+#submit:not(:hover), #post-comment:not(:hover){
+    background: white;
+    transition-duration: .5s;
+}
+
+#email-post {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#error-location {
+    margin-top: -270px;
+    padding-top: 270px;
+}
+
+#comment-area {
+    background: #deeff5;
+    padding: 20px 0 10px 0;
+    margin: 60px 0;
+}
+
+.comment {
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+#comment {
+    margin-top: -10px;
+    margin-bottom: -25px;
+    padding: 0 20px;
+}
+
+.name {
+    text-align: left !important;
+    padding: 20px;
+    font-size: 18px !important;
+}
+
+#comment-section {
+    width: 90%;
+    margin: -230px auto 0 auto;
+    padding-top: 200px;
+}
+
+#user-comments {
+    margin: 60px 0;
+}
+
+.user-comment {
+    background: #deeff5;
+    padding-bottom: 40px;
+    margin-top: -25px;
+}
+
+label, .error {
+    font-size: 16px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+#post-comment {
+    height: 50px !important;
+    width: 160px;
+    border: 1.5px solid lightslategray;
+    padding: 0;
+    background: white;
+    color: black;
+}
+
+#footer {
+    height: 250px;
+    background: #e1e5e8;
+}
+
+#address {
+    padding: 60px 0 0 7%;
+    float: left;
+}
+
+#footer-links {
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    margin: 85px 50px;
+}
+
+#footer-links li a {
+    text-decoration: none;
+    margin: 0 10px;
+    border-right: 1px solid white;
+    margin: 0 10px;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+#footer-links li:last-child a {
+    border-right: none;
+}
+
+#social-media {
+    font-size: 36px;
+    position: absolute;
+    right: 125px;
+    margin-top: 125px;
+}
+
+.fa.fa-facebook, .fa.fa-twitter, .fa.fa-yelp {
+    font-size: 22px;
+    background: #78add9;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 50%;
+    color: white;
+}
+
+.btn-floating.btn-lg.btn-fb {
+    padding: 0;
+}
+
+.fa.fa-facebook:hover {
+    background: #3b5998;
+    transition-duration: .5s;
+}
+
+.fa.fa-twitter:hover {
+    background: #00aced;
+    transition-duration: .5s;
+}
+
+.fa.fa-yelp:hover {
+    background: #af0606;
+    color: white;
+    transition-duration: .5s;
+}
+
+.fa.fa-facebook:not(hover), .fa.fa-twitter:not(hover), .fa.fa-yelp:not(hover) {
+    transition-duration: .5s;
+}
+
+@media only screen and (min-width: 1076px) and (max-width: 1200px) {
+    
+       #main-header {
+        color: #004978;
+        font-size: 38px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
+    
+    #main-nav {
+        display: none;
+    }
+    
+   #header {
+        height: 105px;
+    }
+    
+    #header-content {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 250px;
+        max-width: 100%;
+        float: left;
+        margin: 7px 0 3px 15px;
+    }
+    
+    #header-number {
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 10px 0 0 95px;
+    }
+    
+    #header-phonenumber {
+        margin: -5px auto -35px auto;
+        display: block;
+        color: #1e537f;
+        width: 120px;
+        font-size: 18px;
+}
+    
+    #header-appointment {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    
+    #menu-btn {
+        height: 25px;
+        width: 30px;
+        float: right;
+    }
+    
+    #mobile-nav:hover {
+        display: block;
+        cursor: pointer;
+    }
+    
+    #myNav {
+        display: block !important;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 5px !important;
+        right: 20px !important;
+    }
+     
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(225,229,232, .97); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    display: block;
+    position: relative;
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    top: 25% !important; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 25%;
+    font-family: 'Lato';
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: darkgrey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px !important;
+}
+    
+    .overlay .closebtn:hover {
+        text-decoration: none;
+    }
+ 
+   .dropdown-overlay-sub-menu {
+        margin-left: -20px;
+        list-style-type: none;
+    }
+    
+    .overlay-link:hover, .dropdown-overlay-sub-menu li a:hover, .overlay-link:focus, .dropdown-overlay-sub-menu li a:focus {
+        text-decoration: none;
+    }
+    
+/*-------OVERLAY LINKS--------------*/
+ #about-overlay-dropdown, #doctors-overlay-dropdown, #expectations-overlay-dropdown {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    
+    #about-overlay-dropdown-sub-menu, #doctors-overlay-dropdown-sub-menu, #expectations-overlay-dropdown-sub-menu {
+        display: none;
+        color: white;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    #about-overlay-dropdown-sub-menu li a:hover, #doctors-overlay-dropdown-sub-menu li a:hover, #expectations-overlay-dropdown-sub-menu li a:hover {
+        text-decoration: none;
+    }
+    
+    .overlay-link.main-link {
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    
+    .overlay-link {
+        color: white;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    
+    .overlay-link:hover {
+        cursor: pointer;
+    }
+
+#arrow {
+    margin-top: 10px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    margin-right: 60%;
+}
+    
+#about {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 80px 50px;
+    background-image: url('../images/chiropractic2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /***background-color: #fcf5e8;****/
+}
+    
+    .parallax-about {
+        display: none;
+    }
+    
+    #main-header {
+        font-size: 38px !important;
+        margin-top: 105px !important;
+    }
+    
+    #main-content {
+        margin-top: 105px;
+    }
+    
+    #secondary-content {
+        margin-top: 70px;
+    }
+    
+    .main-additional-info {
+        margin: 50px auto 60px auto;
+    }
+    
+ #contact-section {
+    text-align: center;
+    margin-top: -30px;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-12.accordion {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    
+    #main-nav {
+        display: none;
+    }
+    
+     #header {
+        height: 105px;
+    }
+    
+    #header-content {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 250px;
+        max-width: 100%;
+        float: left;
+        margin: 7px 0 3px 5px;
+    }
+    
+    #header-number {
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 10px 0 0 75px;
+    }
+    
+    #header-phonenumber {
+        margin: -5px auto -35px auto;
+        display: block;
+        color: #1e537f;
+        width: 120px;
+        font-size: 18px;
+}
+    
+    #header-appointment {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    
+    #menu-btn {
+        height: 25px;
+        width: 30px;
+        float: right;
+    }
+    
+     #mobile-nav:hover {
+        display: block;
+        cursor: pointer;
+    }
+    
+    #myNav {
+        display: block !important;
+    }
+    
+    /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(225,229,232, .97); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    display: block;
+    position: relative;
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    top: 25% !important; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 25%;
+    font-family: 'Lato';
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: darkgrey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px !important;
+}
+    
+    .overlay .closebtn:hover {
+        text-decoration: none;
+    }
+ 
+   .dropdown-overlay-sub-menu {
+        margin-left: -20px;
+        list-style-type: none;
+    }
+    
+    .overlay-link:hover, .dropdown-overlay-sub-menu li a:hover, .overlay-link:focus, .dropdown-overlay-sub-menu li a:focus {
+        text-decoration: none;
+    }
+    
+/*-------OVERLAY LINKS--------------*/
+  -overlay-dropdown, #doctors-overlay-dropdown, #expectations-overlay-dropdown {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    
+    #about-overlay-dropdown-sub-menu, #doctors-overlay-dropdown-sub-menu, #expectations-overlay-dropdown-sub-menu {
+        display: none;
+        color: white;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    #about-overlay-dropdown-sub-menu li a:hover, #doctors-overlay-dropdown-sub-menu li a:hover, #expectations-overlay-dropdown-sub-menu li a:hover {
+        text-decoration: none;
+    }
+    
+    .overlay-link.main-link {
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    
+    .overlay-link {
+        color: white;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    
+    .overlay-link:hover {
+        cursor: pointer;
+    }
+
+#arrow {
+    margin-top: 10px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    margin-right: 60%;
+}
+    
+    #about {
+        display: block;
+        padding: 80px 50px;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        background-image: url('../images/chiropractic2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /***background-color: #fcf5e8;****/
+    }
+    
+    .parallax-about {
+        display: none;
+    }
+    
+    #main-content {
+        margin-top: 105px;
+    }
+    
+#secondary-content {
+    width: 90%;
+    margin: 50px auto 70px auto;
+}
+    
+    #main-header {
+        font-size: 32px !important;
+        margin-top: 105px !important;
+        padding: 40px 5%;
+    }
+    
+    .main-additional-info {
+        margin: 50px auto;
+    }
+    
+    #contact-section {
+    text-align: center;
+    margin-top: -30px;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-12.accordion {
+        margin-bottom: 60px;
+    }
+    
+    #footer {
+        height: 330px;
+    }
+    
+    #address {
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    #footer-links {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 200px auto 0 auto;
+        width: 350px;
+    }
+    
+    #social-media {
+        font-size: 36px;
+        margin: 240px auto;
+        width: 120px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+    #main-nav {
+        display: none;
+    }
+    
+     #header {
+        height: 105px;
+    }
+    
+    #header-content {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 250px;
+        max-width: 100%;
+        float: left;
+        margin: 7px 0 3px 0;
+    }
+    
+    #header-number {
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 10px 0 0 60px;
+    }
+    
+    #header-phonenumber {
+        margin: -5px auto -35px auto;
+        display: block;
+        color: #1e537f;
+        width: 120px;
+        font-size: 18px;
+}
+    
+    #header-appointment {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    
+    #menu-btn {
+        height: 25px;
+        width: 30px;
+        float: right;
+    }
+    
+    #mobile-nav:hover {
+        display: block;
+        cursor: pointer;
+    }
+    
+    #myNav {
+        display: block !important;
+    }
+    
+    /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(225,229,232, .97); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    display: block;
+    position: relative;
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    top: 25% !important; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 25%;
+    font-family: 'Lato';
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: darkgrey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px !important;
+}
+    
+    .overlay .closebtn:hover {
+        text-decoration: none;
+    }
+ 
+   .dropdown-overlay-sub-menu {
+        margin-left: -20px;
+        list-style-type: none;
+    }
+    
+    .overlay-link:hover, .dropdown-overlay-sub-menu li a:hover, .overlay-link:focus, .dropdown-overlay-sub-menu li a:focus {
+        text-decoration: none;
+    }
+    
+/*-------OVERLAY LINKS--------------*/
+ #about-overlay-dropdown, #doctors-overlay-dropdown, #expectations-overlay-dropdown {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    
+    #about-overlay-dropdown-sub-menu, #doctors-overlay-dropdown-sub-menu, #expectations-overlay-dropdown-sub-menu {
+        display: none;
+        color: white;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    #about-overlay-dropdown-sub-menu li a:hover, #doctors-overlay-dropdown-sub-menu li a:hover, #expectations-overlay-dropdown-sub-menu li a:hover {
+        text-decoration: none;
+    }
+    
+    .overlay-link.main-link {
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    
+    .overlay-link {
+        color: white;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    
+    .overlay-link:hover {
+        cursor: pointer;
+    }
+
+#arrow {
+    margin-top: 10px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    margin-right: 60%;
+}
+    
+    #about {
+        display: block;
+        padding: 60px 20px;
+        background-image: url('../images/chiropractic2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .parallax-about {
+        display: none;
+    }
+    
+    #main-content {
+        margin-top: 105px;
+    }
+    
+#secondary-content {
+    width: 90%;
+    margin: 50px auto;
+}
+    
+    #main-header {
+        font-size: 32px !important;
+        margin-top: 105px !important;
+        padding: 40px 5%;
+    }
+    
+    h1 {
+        font-size: 38px !important;
+    }
+    
+#contact-section {
+    text-align: center;
+    margin-top: -30px;
+    }
+    
+    .learn-more {
+        font-size: 20px;
+        width: 145px;
+    }
+    
+    .table-phonenumber {
+        display: block;
+        margin: 10px auto 50px auto;
+    }
+    
+    .main-additional-info {
+        margin: 50px auto;
+    }
+    
+    iframe {
+        margin: 0px auto 20px auto;
+        display: block;
+        width: 90%;
+}
+    
+    .col-lg-6.col-md-6.col-sm-12.accordion {
+        margin-top: -20px;
+        margin-bottom: 60px;
+    }
+    
+    #footer {
+        height: 330px;
+    }
+    
+    #address {
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    #footer-links {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 200px auto 0 auto;
+        width: 350px;
+    }
+    
+    #social-media {
+        font-size: 36px;
+        margin: 240px auto;
+        width: 140px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    #main-nav {
+        display: none;
+    }
+    
+     #header {
+        height: 105px;
+    }
+    
+    #header-content {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 250px;
+        max-width: 100%;
+        float: left;
+        margin: 7px 0 3px 0;
+    }
+    
+    #header-number {
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 10px 0 0 60px;
+    }
+    
+    #header-phonenumber {
+        margin: -5px auto -35px auto;
+        display: block;
+        color: #1e537f;
+        width: 120px;
+        font-size: 18px;
+}
+    
+    #header-appointment {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    
+    #menu-btn {
+        height: 25px;
+        width: 30px;
+        float: right;
+    }
+    
+    #mobile-nav:hover {
+        display: block;
+        cursor: pointer;
+    }
+    
+    #myNav {
+        display: block !important;
+    }
+    
+    /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(225,229,232, .97); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    display: block;
+    position: relative;
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    top: 25% !important; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 10%;
+    font-family: 'Lato';
+    padding-bottom: 80px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: darkgrey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px !important;
+}
+    
+    .overlay .closebtn:hover {
+        text-decoration: none;
+    }
+ 
+   .dropdown-overlay-sub-menu {
+        margin-left: -20px;
+        list-style-type: none;
+    }
+    
+    .overlay-link:hover, .dropdown-overlay-sub-menu li a:hover, .overlay-link:focus, .dropdown-overlay-sub-menu li a:focus {
+        text-decoration: none;
+    }
+    
+/*-------OVERLAY LINKS--------------*/
+ #about-overlay-dropdown, #doctors-overlay-dropdown, #expectations-overlay-dropdown {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    
+    #about-overlay-dropdown-sub-menu, #doctors-overlay-dropdown-sub-menu, #expectations-overlay-dropdown-sub-menu {
+        display: none;
+        color: white;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    #about-overlay-dropdown-sub-menu li a:hover, #doctors-overlay-dropdown-sub-menu li a:hover, #expectations-overlay-dropdown-sub-menu li a:hover {
+        text-decoration: none;
+    }
+    
+    .overlay-link.main-link {
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    
+    .overlay-link {
+        color: white;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    
+    .overlay-link:hover {
+        cursor: pointer;
+    }
+
+#arrow {
+    margin-top: 10px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    margin-right: 25%;
+}
+    
+    .parallax-about {
+        display: none;
+    }
+    
+    #main-content {
+        margin-top: 105px;
+    }
+    
+#secondary-content {
+    width: 90%;
+    margin: 45px auto 50px auto;
+}
+  
+    #bg-section {
+        padding: 10px 5% 30px 5%;
+    }
+    
+    #about {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 60px 10px;
+        background-image: url('../images/chiropractic2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+     h1 {
+        font-size: 32px !important;
+         margin-top: 15px !important;
+    }
+    
+    .subheader {
+        font-size: 22px !important;
+        margin-top: 30px !important;
+    }
+    
+    #main-header {
+        margin-bottom: 20px !important;
+        margin-top: 105px !important;
+        padding: 40px 5%;
+    }
+    
+    #contact-section {
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+    .learn-more {
+        font-size: 20px;
+        width: 145px;
+    }
+    
+    .main-additional-info {
+        margin: 50px auto;
+    }
+    
+    .additional-info {
+        margin: 50px auto 100px auto;
+    }
+    
+    #appointment {
+        height: 260px !important;
+    }
+    
+    .schedule {
+        padding-top: 65px !important;
+    }
+    
+    iframe {
+        margin: 0px auto 20px auto;
+        display: block;
+        width: 90%;
+}
+    
+    #patientForm {
+        margin: -25px auto 65px auto;
+    }
+    
+    .table-phonenumber {
+        display: block;
+        margin: 10px auto 50px auto;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-12.accordion {
+        margin-top: -20px;
+        margin-bottom: 60px;
+    }
+    
+    #footer {
+        height: 330px;
+    }
+    
+    #address {
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    #footer-links {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 200px auto 0 auto;
+        width: 350px;
+    }
+    
+    #social-media {
+        font-size: 36px;
+        margin: 240px auto;
+        width: 140px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+    
+    #main-nav {
+        display: none;
+    }
+    
+    #header {
+        height: 105px;
+    }
+    
+    #header-content {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 250px;
+        max-width: 100%;
+        float: left;
+        margin: 7px 0 3px 0;
+    }
+    
+    #header-number {
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 10px 0 0 60px;
+    }
+    
+    #header-phonenumber {
+        margin: -5px auto -35px auto;
+        display: block;
+        color: #1e537f;
+        width: 120px;
+        font-size: 18px;
+}
+    
+    #header-appointment {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin-top: -45px;
+        margin-right: 25px;
+    }
+    
+    #menu-btn {
+        height: 25px;
+        width: 30px;
+        float: right;
+    }
+    
+    #mobile-nav:hover {
+        display: block;
+        cursor: pointer;
+    }
+    
+    #myNav {
+        display: block !important;
+    }
+    
+    /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(225,229,232, .97); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    display: block;
+    position: relative;
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    top: 25% !important; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 10%;
+    font-family: 'Lato';
+    padding-bottom: 80px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px !important;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: darkgrey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 60px !important;
+}
+    
+    .overlay .closebtn:hover {
+        text-decoration: none;
+    }
+ 
+   .dropdown-overlay-sub-menu {
+        margin-left: -20px;
+        list-style-type: none;
+    }
+    
+    .overlay-link:hover, .dropdown-overlay-sub-menu li a:hover, .overlay-link:focus, .dropdown-overlay-sub-menu li a:focus {
+        text-decoration: none;
+    }
+    
+/*-------OVERLAY LINKS--------------*/
+ #about-overlay-dropdown, #doctors-overlay-dropdown, #expectations-overlay-dropdown {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    
+    #about-overlay-dropdown-sub-menu, #doctors-overlay-dropdown-sub-menu, #expectations-overlay-dropdown-sub-menu {
+        display: none;
+        color: white;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    #about-overlay-dropdown-sub-menu li a:hover, #doctors-overlay-dropdown-sub-menu li a:hover, #expectations-overlay-dropdown-sub-menu li a:hover {
+        text-decoration: none;
+    }
+    
+    .overlay-link.main-link {
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+    
+    .overlay-link {
+        color: white;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    
+    .overlay-link:hover {
+        cursor: pointer;
+    }
+
+#arrow {
+    margin-top: 10px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    margin-right: 25%;
+}
+    .parallax-about {
+        display: none;
+    }
+    
+    #main-content {
+        margin-top: 105px;
+    }
+    
+#secondary-content {
+    width: 90%;
+    margin: 35px auto 50px auto;
+}
+    
+    #bg-section {
+        padding: 10px 5% 30px 5%;
+    }
+    
+    #about {
+        display: block;
+       margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 60px 10px;
+        background-image: url('../images/chiropractic2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #contact-section {
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+    .main-additional-info {
+        margin: 50px auto;
+    }
+    
+    .additional-info {
+        margin: 50px auto 100px auto;
+    }
+    
+     h1 {
+         margin-top: 10px;
+        font-size: 28px !important;
+         margin-top: 15px !important;
+    }
+    
+    #main-header {
+        margin-bottom: 20px;
+        margin-top: 105px !important;
+        padding: 40px 5%;
+        font-size: 32px !important;
+    }
+    
+    .subheader {
+        font-size: 22px !important;
+        margin-top: 30px !important;
+    }
+    
+    .learn-more {
+        font-size: 20px;
+        width: 145px;
+    }
+    
+    #appointment {
+        height: 260px !important;
+    }
+    
+    .schedule {
+        padding-top: 65px !important;
+    }
+    
+    #patientForm {
+        margin: -25px auto 65px auto;
+    }
+    
+    iframe {
+        margin: 0px auto 20px auto;
+        display: block;
+        width: 90%;
+}
+    
+    .table-phonenumber {
+        display: block;
+        margin: 10px auto 50px auto;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-12.accordion {
+        margin-top: -20px !important;
+        margin-top: 60px;
+    }
+    
+    #footer {
+        height: 330px;
+    }
+    
+    #address {
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    #footer-links {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 200px auto 0 auto;
+        width: 350px;
+    }
+    
+    #social-media {
+        font-size: 36px;
+        margin: 240px auto;
+        width: 140px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+
+

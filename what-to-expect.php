@@ -9,9 +9,9 @@ include 'includes/header.php';
 
 <body>
     
-    <div id="secondary-content">
+<h1 id="main-header">What to Expect</h1>
     
-        <h1 id="main-header">What to Expect</h1>
+    <div id="secondary-content">
         
          <p>As chiropractors in Brookfield we want all of our patients to feel immediately at home when they walk in the door. Since chiropractic care involves a series of visits, with each one building on the ones before, it’s important for you to feel comfortable right from the start.</p>
         
