@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="us">
-    
 <meta charset="UTF-8">
-
     
 <!------MOBILE RESPONSIVENESS----------->
     
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!----------CSS STYLES--------->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+<!----------CSS STYLES--------->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
     
-    <!------------GOOGLE FONTS----------->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<!------------GOOGLE FONTS----------->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
     
-    <!-------Social Media Icons-------->
+<!-------Social Media Icons-------->
     <script src="https://use.fontawesome.com/dcc4d2ce3c.js"></script>
 
 
 <!---JavaScript-->
-    <script type="text/javascript" src="javascript/jquery-3.2.1.mis.js"></script>
-     <script type="text/javascript" src="script.js"></script>
-    
-    <!--JQuery-->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-      <!-- Bootstrap -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="javascript/jquery-3.2.1.mis.js"></script>
+script type="text/javascript" src="script.js"></script>
+  
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+<!-- Bootstrap -->
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!---[if lt IE 9]---->
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <!----[endif]---->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!---[if lt IE 9]---->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<!----[endif]---->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 
 
 <!-------Social Media Icons-------->
 
-    <script src="https://use.fontawesome.com/dcc4d2ce3c.js"></script>
-
-     <script src="bootstrap-3.3.7-dist/css/bootstrap-social-gh-pages/bootstrap-social.css"></script>
+<script src="https://use.fontawesome.com/dcc4d2ce3c.js"></script>
+<script src="bootstrap-3.3.7-dist/css/bootstrap-social-gh-pages/bootstrap-social.css"></script>
     
 
 <!----------FAVICON--------------->
@@ -233,7 +230,7 @@ function showSlides(n) {
 <span class="menu" onclick="openNav()" id="mobile-nav"><img src="images/menu-button.png" alt="menu" id="menu-btn" /></span>
     
         
-             <!-- The overlay -->
+<!-- The overlay -->
 <div id="myNav" class="overlay">
 
   <!-- Button to close the overlay navigation -->
@@ -275,9 +272,8 @@ function showSlides(n) {
     </div>
     
  </div>
-
     
 </header>
 
-
 </html>
+
